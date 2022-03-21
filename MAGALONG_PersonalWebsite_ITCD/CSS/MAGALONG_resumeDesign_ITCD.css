@@ -55,13 +55,10 @@ a:visited{
     color: black;
 }
 a:hover{
-    text-decoration:underline;
-    background-color: #90be6d;
     color: #577590;
     font-weight: bolder;
     cursor: pointer;
-    font-size: 16px;
-    border: solid 2px #4d908e;
+    font-size: 18px;
 }
 a:active{
     text-decoration: none;
@@ -70,9 +67,8 @@ a:active{
 div.firstlayer{
     background-color: #f8961e;
     color: black;
-    margin: 10px;
+    margin: 2px;
     padding: 30px;
-    text-align: center;
     font-size: 16px;
 
 }

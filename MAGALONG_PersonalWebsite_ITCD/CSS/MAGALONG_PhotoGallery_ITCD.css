@@ -34,15 +34,16 @@ li{
     padding-left: -3em;
 }
 img{
-    border: solid 1px black;
+    border: double 8px black;
+    border-radius: 10px;
 }
 img:hover{
-    text-decoration:underline;
-    background-color: #90be6d;
-    border: solid 10px #4d908e;
-    font-weight: bolder;
-    cursor: pointer;
-    font-size: 20px;
+    border: 10px dotted;
+    border-top-color:#577590;
+    border-right-color:#90be6d ;
+    border-bottom-color:#90be6d ;
+    border-left-color:#577590;
+    box-shadow: 10px 10px#577590;
 }
 div.firstlayer{
     background-color: #f94144;
@@ -89,8 +90,6 @@ a:visited{
     color: black;
 }
 a:hover{
-    text-decoration:underline;
-    background-color: #90be6d;
     color: #577590;
     font-weight: bolder;
     cursor: pointer;
