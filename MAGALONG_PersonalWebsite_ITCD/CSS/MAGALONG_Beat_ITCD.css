@@ -1,0 +1,79 @@
+body {
+    font-family:'Spartan', sans-serif;
+    background-color: #f9c74f;
+    color:black;
+    line-height: 20px;
+    word-spacing: 3px;
+    font-size: 18px;
+
+}
+h2{
+    font-family:'Spartan', sans-serif;
+    color: #43aa8b;
+    letter-spacing: 1.5px;
+    font-size:32px;
+    text-shadow: 3px 4px #4d908e;
+    background-color:#f8961e;
+    
+}
+h1{
+    font-family: 'Arvo', serif;
+    color: #43aa8b;
+    letter-spacing: 1.5px;
+    font-variant: small-caps;
+    word-spacing: -1px ;
+    font-size:60px;
+    text-shadow: 3px 4px #4d908e;
+}
+img{
+    width: 250px;
+    height: 250px;
+}
+audio{
+    width: 250px;
+    background-color: #f9c74f;
+    opacity: 0.85;
+}
+p{
+    padding-left:3% ;
+    padding-right: 3%;
+    text-align: center;
+    font-size: 16px;
+}
+a:link{
+    text-decoration: none;
+    color: black;
+}
+a:visited{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    font-weight: bolder;
+    cursor: pointer;
+    font-size: 18px;
+}
+a:active{
+    text-decoration: none;
+}
+div.firstlayer{
+    background-color: #f8961e;
+    color: black;
+    margin: 2px;
+    padding: 5px;
+    font-size: 18px;
+
+
+}
+ul.a{
+    list-style-type: none;
+    font-size: 18px;
+}
+li.a{
+    display: inline-block;
+    padding-left: 2em;
+    text-align: center;
+}
+.right{
+    text-align: right;
+}
