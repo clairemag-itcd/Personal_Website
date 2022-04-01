@@ -4,7 +4,7 @@ body {
     color:black;
     line-height: 20px;
     word-spacing: 3px;
-
+    font-size: 18px;
 
 }
 h2{
@@ -14,7 +14,6 @@ h2{
     font-size:32px;
     text-shadow: 3px 4px #4d908e;
     background-color:#f8961e;
-    text-align: center;
     
 }
 h1{
@@ -26,20 +25,16 @@ h1{
     font-size:60px;
     text-shadow: 3px 4px #4d908e;
 }
-h3{
-    padding-bottom: -1%;
-    font-weight: bolder;
-}
-video{
-    float: left;
-    margin-top: 1px;
-    margin-bottom: 10px;
-    padding-right: 15px;
-    padding-left: 10px;
-}
 p{
-    text-align: justify;
-    padding-right: 20px;
+    margin: 0px;
+    padding: 0px;
+    line-height: 20px;
+    text-align: left;
+    display: flex;
+    vertical-align: auto;
+}
+img{
+    vertical-align: auto;
 }
 a:link{
     text-decoration: none;
@@ -71,10 +66,30 @@ ul.a{
 li.a{
     display: inline-block;
     padding-left: 2em;
-    text-align: center;
+    text-align: left;
 }
-.clear{
-    clear: left;
+div.container{
+    background-color: #f8961e;
+    width: 400px;
+    height: 500px;
+    border: 15px solid #f9844a;
+    padding: 50px;
+    margin: auto;
+    box-shadow: 10px 10px 5px gray;
+    display: flex;
+    justify-content: center;
+    align-items: left;
 }
+div.heading1{
+    margin: -40px;
+    line-height: 60px;
+    letter-spacing: 10px;
+}
+ul.checklist{
+    list-style-type: none;
+    line-height: normal;
+    padding-top: 20px;
+    vertical-align:auto;
+    font-size: 18px;
 
-
+}
